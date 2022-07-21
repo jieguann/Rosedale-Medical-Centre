@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44407046, g: 0.49331486, b: 0.57238823, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.4964124, b: 0.574817, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -156,16 +156,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_PrefabsList:
-  - imageGuid: f0340be5-710e-49ff-bc70-45f1315b9202
-    imagePrefab: {fileID: 6916502901855112170, guid: e22b43a8fcdab413bb4f52f5076f759e,
+  - imageGuid: e65ef032-c31a-4fb7-b61d-9f86e17bbfd1
+    imagePrefab: {fileID: 6893540446365474507, guid: b6f8c51c7c388b649841767578f5ee1b,
       type: 3}
-  - imageGuid: 2c29eeed-d95c-4111-b724-80f9ff10ce86
-    imagePrefab: {fileID: 2804028924010200506, guid: 379785de5e39005469c875710d3cc5a7,
-      type: 3}
-  - imageGuid: aae75228-1973-4dc0-b7a2-53d1566ee402
-    imagePrefab: {fileID: 3279860958548870494, guid: 2584331523bd14e8898965d93034efdb,
-      type: 3}
-  m_ImageLibrary: {fileID: 11400000, guid: c86e375d7e7430442a1104e88fa21f21, type: 2}
+  m_ImageLibrary: {fileID: 11400000, guid: a84016053a1d9438f9d69cffdfbf8e7e, type: 2}
 --- !u!114 &143437354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -181,7 +175,8 @@ MonoBehaviour:
   m_SerializedLibrary: {fileID: 11400000, guid: c86e375d7e7430442a1104e88fa21f21,
     type: 2}
   m_MaxNumberOfMovingImages: 0
-  m_TrackedImagePrefab: {fileID: 0}
+  m_TrackedImagePrefab: {fileID: 6893540446365474507, guid: b6f8c51c7c388b649841767578f5ee1b,
+    type: 3}
 --- !u!114 &143437355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,7 +217,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 143437350}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a6d5323815f004189af1fb658b6c9369, type: 3}
   m_Name: 
@@ -507,6 +502,7 @@ MonoBehaviour:
   m_AttachTransform: {fileID: 0}
   m_KeepSelectedTargetValid: 1
   m_StartingSelectedInteractable: {fileID: 0}
+  m_StartingTargetFilter: {fileID: 0}
   m_HoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -825,6 +821,7 @@ GameObject:
   m_Component:
   - component: {fileID: 287391696}
   - component: {fileID: 287391695}
+  - component: {fileID: 287391697}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -909,6 +906,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &287391697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287391694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1 &732175967
 GameObject:
   m_ObjectHideFlags: 0
@@ -1368,6 +1385,7 @@ MonoBehaviour:
   m_AttachTransform: {fileID: 0}
   m_KeepSelectedTargetValid: 1
   m_StartingSelectedInteractable: {fileID: 0}
+  m_StartingTargetFilter: {fileID: 0}
   m_HoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -1759,6 +1777,7 @@ MonoBehaviour:
   m_AutoFocus: 1
   m_LightEstimation: 0
   m_FacingDirection: 1
+  m_RenderMode: 0
 --- !u!114 &1718838892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1981,7 +2000,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1809621587
 MonoBehaviour:
   m_ObjectHideFlags: 0
