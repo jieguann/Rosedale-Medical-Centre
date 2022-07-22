@@ -172,9 +172,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dea56a9eaadd1c439095de4f9a371cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedLibrary: {fileID: 11400000, guid: c86e375d7e7430442a1104e88fa21f21,
+  m_SerializedLibrary: {fileID: 11400000, guid: a84016053a1d9438f9d69cffdfbf8e7e,
     type: 2}
-  m_MaxNumberOfMovingImages: 0
+  m_MaxNumberOfMovingImages: 1
   m_TrackedImagePrefab: {fileID: 6893540446365474507, guid: b6f8c51c7c388b649841767578f5ee1b,
     type: 3}
 --- !u!114 &143437355
@@ -669,10 +669,10 @@ MonoBehaviour:
   m_TrackingStateAction:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Tracking State
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 0ff96794-6d48-4c32-9edc-5bb87a34fd68
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -701,10 +701,10 @@ MonoBehaviour:
   m_SelectActionValue:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Select Action Value
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 8faa120c-f906-4b4d-8b54-cce8a50cb351
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -725,10 +725,10 @@ MonoBehaviour:
   m_ActivateActionValue:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Activate Action Value
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: cb1edadf-b0cc-4a56-8a9a-1e172dff9116
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -765,10 +765,10 @@ MonoBehaviour:
   m_UIPressActionValue:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: UI Press Action Value
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: b8989cd2-0968-4163-a001-76653e59109d
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1552,10 +1552,10 @@ MonoBehaviour:
   m_TrackingStateAction:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Tracking State
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 918c876f-aebb-4904-b8e2-f95ff8b0831d
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1584,10 +1584,10 @@ MonoBehaviour:
   m_SelectActionValue:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Select Action Value
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 60a39d01-2703-42e6-b66a-7dc355ba0ead
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1608,10 +1608,10 @@ MonoBehaviour:
   m_ActivateActionValue:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Activate Action Value
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 129c595f-5470-4f6f-893c-fb12f721d981
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1664,10 +1664,10 @@ MonoBehaviour:
   m_UIPressActionValue:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: UI Press Action Value
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 03da012c-f8c7-4899-afca-8fc90a9fd020
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1724,6 +1724,7 @@ GameObject:
   - component: {fileID: 1718838892}
   - component: {fileID: 1718838891}
   - component: {fileID: 1718838890}
+  - component: {fileID: 1718838895}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1982,6 +1983,39 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1718838895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718838888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1 &1809621586
 GameObject:
   m_ObjectHideFlags: 0
